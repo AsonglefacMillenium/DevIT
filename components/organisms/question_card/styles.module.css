@@ -1,0 +1,49 @@
+.questionCard {
+  width: 100%;
+  background: #f7f7f7;
+  border-radius: 2rem;
+  padding: 3rem;
+  gap: 32px;
+}
+
+.questionCard form {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin-top: 2rem;
+}
+
+.questionCard_questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.question {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+}
+
+.questionCard_btn {
+  width: 20%;
+  align-self: flex-end;
+  margin-top: 5rem;
+}
+
+.questionCard_btn button {
+  height: 4rem;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 800px){
+  .questionCard{
+    padding: 3rem 2rem;
+  }
+
+  .questionCard_btn{
+    width: 35%;
+  }
+}

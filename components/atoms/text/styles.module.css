@@ -1,0 +1,133 @@
+.h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+  
+    font-style: normal;
+    margin: 0;
+  }
+  
+  .h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+  
+  
+    font-style: normal;
+    font-weight: 700;
+    
+    margin: 0;
+  }
+  
+  .h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+  
+    font-style: normal;
+    font-weight: 400;
+    
+    margin: 0;
+  }
+  
+  /* .h3 {
+  } */
+  
+  .medium {
+    font-family: "Montserrat", sans-serif;
+  
+    
+  
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+   
+    margin: 0;
+  }
+  
+  .small {
+    font-family: "Montserrat", sans-serif;
+  
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    
+    margin: 0;
+  }
+  
+  .xsmall {
+    font-family: "Montserrat", sans-serif;
+
+  
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .normal {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+  
+  
+    font-style: normal;
+  
+    line-height: normal;
+    margin: 0;
+  }
+  
+  
+  
+  .large {
+    font-family: "Montserrat", sans-serif;
+   
+    font-size: 7rem;
+    font-style: normal;
+  
+ 
+    margin: 0;
+  }
+  
+  .xlarge {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+  
+  .xxlarge {
+    font-family: "Lexend", sans-serif;
+    
+  
+    font-size: 25rem;
+    font-style: normal;
+    font-weight: 400;
+  
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .normal {
+      
+  
+      font-size: 2rem;
+      font-style: normal;
+      line-height: normal;
+      margin: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .normal {
+      
+  
+      font-size: 2rem;
+      font-style: normal;
+      line-height: normal;
+      margin: 0;
+    }
+
+    .h1{
+        font-size: 3rem;
+    }
+  }
